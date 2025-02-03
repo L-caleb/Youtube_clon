@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,500;1,75..100,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css"/>
+</head>
+<body>
+
+   
+    <header class="header">
+        <div class="left-side">
+           <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg>
+           <div class="yt-logo">
+             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="49" viewBox="0 0 48 48">
+                <linearGradient id="PgB_UHa29h0TpFV_moJI9a_9a46bTk3awwI_gr1" x1="9.816" x2="41.246" y1="9.871" y2="41.301" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f44f5a"></stop><stop offset=".443" stop-color="#ee3d4a"></stop><stop offset="1" stop-color="#e52030"></stop></linearGradient><path fill="url(#PgB_UHa29h0TpFV_moJI9a_9a46bTk3awwI_gr1)" d="M45.012,34.56c-0.439,2.24-2.304,3.947-4.608,4.267C36.783,39.36,30.748,40,23.945,40	c-6.693,0-12.728-0.64-16.459-1.173c-2.304-0.32-4.17-2.027-4.608-4.267C2.439,32.107,2,28.48,2,24s0.439-8.107,0.878-10.56	c0.439-2.24,2.304-3.947,4.608-4.267C11.107,8.64,17.142,8,23.945,8s12.728,0.64,16.459,1.173c2.304,0.32,4.17,2.027,4.608,4.267	C45.451,15.893,46,19.52,46,24C45.89,28.48,45.451,32.107,45.012,34.56z"></path><path d="M32.352,22.44l-11.436-7.624c-0.577-0.385-1.314-0.421-1.925-0.093C18.38,15.05,18,15.683,18,16.376	v15.248c0,0.693,0.38,1.327,0.991,1.654c0.278,0.149,0.581,0.222,0.884,0.222c0.364,0,0.726-0.106,1.04-0.315l11.436-7.624	c0.523-0.349,0.835-0.932,0.835-1.56C33.187,23.372,32.874,22.789,32.352,22.44z" opacity=".05"></path><path d="M20.681,15.237l10.79,7.194c0.689,0.495,1.153,0.938,1.153,1.513c0,0.575-0.224,0.976-0.715,1.334	c-0.371,0.27-11.045,7.364-11.045,7.364c-0.901,0.604-2.364,0.476-2.364-1.499V16.744C18.5,14.739,20.084,14.839,20.681,15.237z" opacity=".07"></path><path fill="#fff" d="M19,31.568V16.433c0-0.743,0.828-1.187,1.447-0.774l11.352,7.568c0.553,0.368,0.553,1.18,0,1.549	l-11.352,7.568C19.828,32.755,19,32.312,19,31.568z"></path>
+             </svg>
+                <span class="yt-text">
+                    YouTube
+                </span>
+           </div>
+        </div>
+        <div class="middle-side">
+            <div class="inner-middle-side">
+                <input class="search" type="text" placeholder="Search" />
+           
+                <button class="icon-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"></path></svg>
+                </button>
+                
+               
+            </div>
+            <button class="btn-mic">
+                <svg class="icon-mic" fill="currentColor" xmlns="http://www.w3.org/2000/svg" fill="white" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; "><path d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"></path></svg>
+            </button>
+        </div>
+
+        <div class="right-side">
+            <div class="create-div">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="black" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M20 12h-8v8h-1v-8H3v-1h8V3h1v8h8v1z"></path></svg>
+                <span class="create-text">
+                    Create
+                </span>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path clip-rule="evenodd" d="m13.497 4.898.053.8.694.4C15.596 6.878 16.5 8.334 16.5 10v2.892c0 .997.27 1.975.784 2.83L18.35 17.5H5.649l1.067-1.778c.513-.855.784-1.833.784-2.83V10c0-1.666.904-3.122 2.256-3.902l.694-.4.053-.8c.052-.78.703-1.398 1.497-1.398.794 0 1.445.618 1.497 1.398ZM6 10c0-2.224 1.21-4.165 3.007-5.201C9.11 3.236 10.41 2 12 2c1.59 0 2.89 1.236 2.993 2.799C16.79 5.835 18 7.776 18 10v2.892c0 .725.197 1.436.57 2.058l1.521 2.535c.4.667-.08 1.515-.857 1.515H15c0 .796-.316 1.559-.879 2.121-.562.563-1.325.879-2.121.879s-1.559-.316-2.121-.879C9.316 20.56 9 19.796 9 19H4.766c-.777 0-1.257-.848-.857-1.515L5.43 14.95c.373-.622.57-1.333.57-2.058V10Zm4.5 9c0 .398.158.78.44 1.06.28.282.662.44 1.06.44s.78-.158 1.06-.44c.282-.28.44-.662.44-1.06h-3Z" fill-rule="evenodd"></path></svg>
+            <button class="btn-email">
+                <p class="email-text">C</p>
+            </button>
+        </div>
+
+        
+    </header>
+
+
+    <section class="section-subheader">
+        <div class="container">
+            <div class="subheader">
+               <div class="span-div">
+                    <span class="span-text">All</span>
+                </div> 
+
+                <div class="span-div">
+                    <span class="span-text">Music</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Note-taking</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Skills</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Mashups</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Gaming</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Comic books</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Naruto</span>
+                </div>
+
+
+                <div class="span-div">
+                    <span class="span-text">Mixes</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Computer files</span>
+                </div>
+                
+                <div class="span-div">
+                    <span class="span-text">Manga</span>
+                </div>
+
+                <div class="span-div">
+                    <span class="span-text">Laliga</span>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="nav">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path clip-rule="evenodd" d="M22.146 11.146a.5.5 0 01-.353.854H20v7.5a1.5 1.5 0 01-1.5 1.5H14v-8h-4v8H5.5A1.5 1.5 0 014 19.5V12H2.207a.5.5 0 01-.353-.854L12 1l10.146 10.146Z" fill-rule="evenodd"></path></svg>
+                <span class="sidebar-text">Home</span>
+            </div>
+
+            <div class="nav">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path clip-rule="evenodd" d="m7.61 15.719.392-.22v-2.24l-.534-.228-.942-.404c-.869-.372-1.4-1.15-1.446-1.974-.047-.823.39-1.642 1.203-2.097h.001L15.13 3.59c1.231-.689 2.785-.27 3.466.833.652 1.058.313 2.452-.879 3.118l-1.327.743-.388.217v2.243l.53.227.942.404c.869.372 1.4 1.15 1.446 1.974.047.823-.39 1.642-1.203 2.097l-.002.001-8.845 4.964-.001.001c-1.231.688-2.784.269-3.465-.834-.652-1.058-.313-2.451.879-3.118l1.327-.742Zm1.993 6.002c-1.905 1.066-4.356.46-5.475-1.355-1.057-1.713-.548-3.89 1.117-5.025a4.14 4.14 0 01.305-.189l1.327-.742-.942-.404a4.055 4.055 0 01-.709-.391c-.963-.666-1.578-1.718-1.644-2.877-.08-1.422.679-2.77 1.968-3.49l8.847-4.966c1.905-1.066 4.356-.46 5.475 1.355 1.057 1.713.548 3.89-1.117 5.025a4.074 4.074 0 01-.305.19l-1.327.742.942.403c.253.109.49.24.709.392.963.666 1.578 1.717 1.644 2.876.08 1.423-.679 2.77-1.968 3.491l-8.847 4.965ZM10 14.567a.25.25 0 00.374.217l4.45-2.567a.25.25 0 000-.433l-4.45-2.567a.25.25 0 00-.374.216v5.134Z" fill-rule="evenodd"></path></svg>
+                <span>Shorts</span>
+            </div>
+
+            <div class="nav">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path clip-rule="evenodd" d="M4 4.5A1.5 1.5 0 015.5 3h13A1.5 1.5 0 0120 4.5H4Zm16.5 3h-17v11h17v-11ZM3.5 6A1.5 1.5 0 002 7.5v11A1.5 1.5 0 003.5 20h17a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0020.5 6h-17Zm7.257 4.454a.5.5 0 00-.757.43v4.233a.5.5 0 00.757.429L15 13l-4.243-2.546Z" fill-rule="evenodd"></path></svg>
+                <span class="sidebar-text">Subscriptions</span>
+            </div>
+
+            <div class="nav">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="M12 20.5c1.894 0 3.643-.62 5.055-1.666a5.5 5.5 0 00-10.064-.105.755.755 0 01-.054.099A8.462 8.462 0 0012 20.5Zm4.079-5.189a7 7 0 012.142 2.48 8.5 8.5 0 10-12.443 0 7 7 0 0110.3-2.48ZM12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Zm2-12.5a2 2 0 11-4 0 2 2 0 014 0Zm1.5 0a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0Z" fill-rule="evenodd"></path></svg>
+                <span class="sidebar-text">You</span>
+            </div>
+        </div>
+    </aside>
+        
+    <main>
+        <section class="section-video-top section-video">
+            <div class="container">
+                <div class="grid grid-main-video">
+                    <div class="video-preview">
+                        <div class="thumbnail-main-video">
+                            <img class="images" src="https://i.ytimg.com/vi/nl9VlTA-AfE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrZXSwyvAfuZ-RpssfAv8-nSGZIw" alt="video" />
+                        </div>
+
+                        <div class="grid video-info-grid">
+                            <div class="channel-image-div">
+                                <img class="channel-images" src="https://yt3.ggpht.com/TT5oQds2JosySdmQdI51MGyNzwYfd0d6LcoRAheveJlc83fPy2qURHS_MI7GPlmMcQaWpAXf=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Build a school/education landing page with HTML &amp; CSS
+                                </p>
+                                <p class="video-author">
+                                    Coder Coder Builds
+                                </p>
+                                <p class="video-stat">
+                                    23K views . 3months ago
+                                </p>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+
+                        </div>
+                    </div>
+
+                    <div class="video-preview">
+                        <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/mAdodMaERp0/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgSSg_MA8=&rs=AOn4CLAlDnhayYHok5T7rywlVIKtWJoW-w"/> 
+                        </div>
+
+                        <div class="grid video-info-grid">
+                            <div class="channel-image-div">
+                                <img class="channel-images" src="https://yt3.ggpht.com/w2LFEbLQw8xaq7YuuMSJIl83_kZ5y3E7Sgzxg_JPKqHNMULPNzdvkPioI_5bjqhPxW3daK5UcXU=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+
+                            <div class="video-info">
+                                <p class="video-title">
+                                    some things i learned about love 
+                                </p>
+                                <p class="video-author">
+                                    yan
+                                </p>
+                                <p class="video-stat">
+                                    633K views . 3months ago
+                                </p>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+
+                        </div>             
+                    </div>
+           
+
+                    <div class="video-preview">
+                        <div class="thumbnail-main-video">
+                             <img class="images" src="https://i.ytimg.com/vi/DZZXZ-CJL54/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCUU3ilbRtpF26ZGzMtnXOIKqgmkA" alt="video"/>
+                        </div>
+
+                        <div class="grid video-info-grid">
+                            <div class="channel-image-div">
+                                <img class="channel-images" src="https://yt3.ggpht.com/tefsSEFVJaD0OnAnAQH1s2zAilKRUXoIZdfIetoFxLhS9Tg-WuuxwgMec1ri8bNFhk0U01GbMQ=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+
+                            <div class="video-info">
+                                <p class="video-title">
+                                    9 Programming Lesons I wish I Knew Earlier 
+                                </p>
+                                <p class="video-author">
+                                     The Coding Sloth
+                                </p>
+                                <p class="video-stat">
+                                    714K views . 1year ago
+                                </p>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    <section class="section-shorts-video">
+        <div class="container">
+            <div class="shorts-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                    <path d="m19.45,3.88c1.12,1.82.48,4.15-1.42,5.22l-1.32.74.94.41c1.36.58,2.27,1.85,2.35,3.27.08,1.43-.68,2.77-1.97,3.49l-8,4.47c-1.91,1.06-4.35.46-5.48-1.35-1.12-1.82-.48-4.15,1.42-5.22l1.33-.74-.94-.41c-1.36-.58-2.27-1.85-2.35-3.27-.08-1.43.68-2.77,1.97-3.49l8-4.47c1.91-1.06,4.35-.46,5.48,1.35Z" fill="#f03"></path>
+                    <path d="m10,15l5-3-5-3v6Z" fill="#fff"></path>
+                </svg>
+                <span class="shorts-text">Shorts</span>
+            </div>
+
+            <div class="shorts-flex-container">
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/qAawewF68Cs/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCwCQSYffCPQ4L0BFVmLcIwzLTdsw">
+                    </div>
+
+                    <div class="shorts-info">
+                        <div class="shorts-info-flex">
+                            <p class="shorts-title">
+                                Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                            </p>
+    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                            </div>
+                        </div>
+                        
+                        <span class="span-text-shorts">1.8M views</span>
+                    </div>
+
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/5-gCyzwmm0Q/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAd_hpx9JFpGtxr_Kk1ZADwA7lJ5g">
+                    </div>
+                    <div class="shorts-info">
+                        <div class="shorts-info-flex">
+                            <p class="shorts-title">
+                                Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                            </p>
+    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                            </div>
+                        </div>
+                        
+                        <span class="span-text-shorts">1.8M views</span>
+                    </div>
+
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/MGqVC8qKQ3k/oar2.jpg?sqp=-oaymwEoCJwEENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBVqIZ9l839D51kUGewF7eijjAsfA">
+                    </div>
+
+                    <div class="shorts-info">
+                        <div class="shorts-info-flex">
+                            <p class="shorts-title">
+                                Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                            </p>
+    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                            </div>
+                        </div>
+                        
+                        <span class="span-text-shorts">1.8M views</span>
+                    </div>
+
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/d0FR9_xkNok/oardefault.jpg?sqp=-oaymwEoCNAFENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBoEBwau5KStqTiBeSlYVAKtDHGWg">
+                    </div>
+
+                    <div class="shorts-info">
+                        <div class="shorts-info-flex">
+                            <p class="shorts-title">
+                                Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                            </p>
+    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                            </div>
+                        </div>
+                        
+                        <span class="span-text-shorts">1.8M views</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-video">
+        <div class="container">
+            <div class="grid grid-3cols">
+                <div class="video-preview">
+                    <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/1f6N2UrCK6o/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBO7UMZcO7h1tVkbvkoWKfUI2i7uw" alt="video" />
+                    </div>
+
+                    <div class="grid video-info-grid">
+                        <div class="channel-image-div">
+                            <img class="channel-images" src="https://yt3.ggpht.com/ytc/AIdro_kB0ue77A4V1kthgFdZfMUmwRcB9RSC2lZ4pDsgSPwjlQs=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+    
+                        <div class="video-info">
+                            <p class="video-title">
+                                Unlocking Your Intutition: How To Solve Hard Problems Easily
+                            </p>
+                            <p class="video-author">
+                                Colin Galin
+                            </p>
+                            <p class="video-stat">
+                                1.4M views . 2 years ago
+                            </p>
+                        </div>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+    
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/iILFBGm_I9M/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD1t9TpOqVVRFnLpwit9PLYr224Qg" alt="video"/>
+                    </div>
+
+                    <div class="grid video-info-grid">
+                        <div class="channel-image-div">
+                            <img class="channel-images" src="https://yt3.ggpht.com/fErwCZk3mSh4RW0KhIDlsdLF8r5myXKcg2tHeVPyLoVR86rnkSb5II1s4v1lC7Muqd5asy0Ruxw=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+    
+                        <div class="video-info">
+                            <p class="video-title">
+                                ASMR Programming - Weather App With Javascript - No Talking 
+                            </p>
+                            <p class="video-author">
+                                AsmrProg
+                            </p>
+                            <p class="video-stat">
+                                2.9M views . 1 year ago
+                            </p>
+                        </div>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+    
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/bQtKSGlviWI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFpN_62bZPFKf37Ev3bwMNvnVTgw" alt="video"/>
+                    </div>
+
+                    <div class="grid video-info-grid">
+                        <div class="channel-image-div">
+                            <img class="channel-images" src="https://yt3.ggpht.com/1ecCX_f0ydKcAsoggXLeU2XtHzBQ7IIOEwCGHzTKaWTxc02jdz51zOv78DRMCsPHGwlX9uGmphw=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+    
+                        <div class="video-info">
+                            <p class="video-title">
+                                How To Unf*** Your Brain
+                            </p>
+                            <p class="video-author">
+                                Modern Ideas
+                            </p>
+                            <p class="video-stat">
+                                3.3M views . 7months ago
+                            </p>
+                        </div>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="section-shorts-video">
+        <div class="container">
+            <div class="shorts-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                    <path d="m19.45,3.88c1.12,1.82.48,4.15-1.42,5.22l-1.32.74.94.41c1.36.58,2.27,1.85,2.35,3.27.08,1.43-.68,2.77-1.97,3.49l-8,4.47c-1.91,1.06-4.35.46-5.48-1.35-1.12-1.82-.48-4.15,1.42-5.22l1.33-.74-.94-.41c-1.36-.58-2.27-1.85-2.35-3.27-.08-1.43.68-2.77,1.97-3.49l8-4.47c1.91-1.06,4.35-.46,5.48,1.35Z" fill="#f03"></path>
+                    <path d="m10,15l5-3-5-3v6Z" fill="#fff"></path>
+                </svg>
+                <span class="shorts-text">Shorts</span>
+            </div>
+    
+            <div class="shorts-flex-container">
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/VGBVW_rYHaA/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDS9A6wreYCIK4LKK5gg5YkzbnufA">
+                    </div>
+
+                    <div class="shorts-info">
+                        <p class="shorts-title">
+                            Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                        </p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+
+                    </div>
+
+                    <span class="span-text-shorts">
+                        1.8M views
+                    </span>
+                </div>
+    
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/M-BVo_nEZnI/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBggcNNd3WUmzcYK2_SP7OIUxxcPA">
+                    </div>
+
+                    <div class="shorts-info">
+                        <div class="shorts-info-flex">
+                            <p class="shorts-title">
+                                Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                            </p>
+    
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                            </div>
+                        </div>
+                        
+                        <span class="span-text-shorts">1.8M views</span>
+                    </div>
+
+
+                    </div>
+                </div>
+    
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/i9jUbOvreAI/oar2.jpg?sqp=-oaymwEdCNAFENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAE4gKOoYP59zRKF6duSOM3EXDvhA">
+                    </div>
+
+                    <div class="shorts-info">
+                        <p class="shorts-title">
+                            Jujutsu Kaisen Season 2 Episode 16 Reaction Mashup
+                        </p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+
+                        <span class="shorts-text">
+                            1.8M views
+                        </span>
+
+                    </div>
+                </div>
+    
+                <div class="shorts-preview">
+                    <div class="thumbnail">
+                        <img class="images-shorts" src="https://i.ytimg.com/vi/3b6CMYKQ73s/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDGQOkOZy3WERiENlgTycla3depOA">
+                    </div>
+
+                    <div class="shorts-info">
+                        <p class="shorts-title">
+                            How to host your website for free 
+                        </p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+
+
+                        <span class="shorts-text">
+                            1.8M views
+                        </span>
+
+                        
+                    </div>
+                    
+                </div>
+                            
+            </div>
+        </div>
+    </section>
+
+    <section class="section-video">
+        <div class="container">
+            <div class="grid grid-3cols">
+                <div class="video-preview">
+                    <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/e9dZQelULDk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdSSXUQA7l2nv-rb26a7vios1Kkw" alt="video" />
+                    </div>
+
+                    <div class="grid video-info-grid">
+                        <div class="channel-image-div">
+                            <img class="channel-images" src="https://yt3.ggpht.com/ytc/AIdro_miKmb89rERFj1lwkCnn7IY7bazxfNuAApGexoZFNI-v-0=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+    
+                        <div class="video-info">
+                            <p class="video-title">
+                                Happiness
+                            </p>
+                            <p class="video-author">
+                                Steve Cutts
+                            </p>
+                            <p class="video-stat">
+                                53M views . 7 years ago
+                            </p>
+                        </div>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+    
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/_nsV65jUPL8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVe5Lcgy_1cwED8SMmEwt544ATQg" alt="video"/>
+                    </div>
+
+                    <div class="grid video-info-grid">
+                        <div class="channel-image-div">
+                            <img class="channel-images" src="https://yt3.ggpht.com/-lS3leSpbxU6D3c9kryQFqRnHf9zeu5IPwCeZcZsyq_qkh6_SZAyf_L0o47mKTs3Gav17XLQ0w=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+    
+                        <div class="video-info">
+                            <p class="video-title">
+                                Coding Was Hard Until I Learnt This 5 Things!
+                            </p>
+                            <p class="video-author">
+                                Random Reactions
+                            </p>
+                            <p class="video-stat">
+                                235K views . 4months ago
+                            </p>
+                        </div>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+    
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-main-video">
+                        <img class="images" src="https://i.ytimg.com/vi/XBu54nfzxAQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDzuWYgkBFBuapMAwIRDYfkPoN45g" alt="video"/>
+                    </div>
+
+                    <div class="grid video-info-grid">
+                        <div class="channel-image-div">
+                            <img class="channel-images" src="https://yt3.ggpht.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s68-c-k-c0x00ffffff-no-rj">
+                        </div>
+    
+                        <div class="video-info">
+                            <p class="video-title">
+                                Backend web development - a complete overview
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-stat">
+                                1.9M views . 3 years ago
+                            </p>
+                        </div>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>                
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+</main>
+</body>
+</html>

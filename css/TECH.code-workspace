@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../Old Firefox Data"
+		},
+		{
+			"path": "../../../html-css-course-master/html-css-course-master/starter/08-Omnifood-Responsive"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TECH",
+		"liveServer.settings.port": 5501
+	}
+}
